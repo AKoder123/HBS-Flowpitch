@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "deckId": "hbs-genai-strategy",
+    "title": "Strategy in the Age of Generative AI",
+    "theme": "dark-academic"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "headline": "Strategy in the Age of Generative AI",
+      "subheadline": "Professor Andy Wu · Harvard Business School",
+      "note": "Mastering Strategy Essentials — Virtual 2026/02"
+    },
+    {
+      "type": "section",
+      "headline": "The Fastest Adoption Curve in History",
+      "subheadline": "Chatbots reached 25% US penetration faster than every prior technology — smartphones, internet, TV, radio."
+    },
+    {
+      "type": "content",
+      "headline": "Every Decade Reshuffles the Board",
+      "subheadline": "Will AI be the next paradigm shift?",
+      "bullets": [
+        "1970s: Mini-Mainframe — IBM dominates enterprise computing",
+        "1980s: Personal Computer — Microsoft & Apple emerge",
+        "1990s: Internet — Google, Amazon, Yahoo rise",
+        "2000s: Mobile + Social — Apple, Facebook, Twitter win",
+        "2020s: AI? — profit redistribution underway"
+      ],
+      "note": "Each shift creates new market leaders and destroys incumbents."
+    },
+    {
+      "type": "beforeAfter",
+      "headline": "Is Gen AI a Revolution — or Evolution?",
+      "left": {
+        "title": "Myth",
+        "bullets": [
+          "A surprise disruption no one saw coming",
+          "Fundamentally discontinuous from prior tech",
+          "Impossible to anticipate or plan around"
+        ]
+      },
+      "right": {
+        "title": "Reality",
+        "bullets": [
+          "A natural evolution in computing power",
+          "Driven by Huang's Law: GPU cost falls ~2× per year",
+          "Global data grew from 2 ZB (2010) to 181 ZB (2025)",
+          "Managers can and must anticipate the next 5+ years"
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "headline": "The AI Stack: What Is Generative AI?",
+      "subheadline": "Transformer models sit at the core of every modern GenAI product.",
+      "bullets": [
+        "Artificial Intelligence: machines that simulate cognition",
+        "Machine Learning: systems that improve from data",
+        "Deep Learning: multi-layer neural networks",
+        "Transformer: attention-based architecture powering LLMs"
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "Gen AI Augments Computing in Two Ways",
+      "subheadline": "Both dimensions compound each other.",
+      "bullets": [
+        "INPUTS — Abstraction: natural language replaces code, clicks, and forms; anyone can now operate specialized software",
+        "OUTPUTS — Computation: AI expands what software can produce — text, images, code, decisions, predictions"
+      ],
+      "note": "More people will use more computers for specialized purposes — but not necessarily the same people."
+    },
+    {
+      "type": "beforeAfter",
+      "headline": "Where Gen AI Actually Creates Value",
+      "left": {
+        "title": "The Conversation",
+        "bullets": [
+          "Focus: improving quality of outputs",
+          "Gen AI raises 'Worth to Customer'",
+          "Drives willingness-to-pay higher"
+        ]
+      },
+      "right": {
+        "title": "The Strategic Insight",
+        "bullets": [
+          "Focus: dramatically cutting cost structure",
+          "Gen AI lowers 'Cost to Supplier'",
+          "Ryanair beat BA not on quality — on cost",
+          "AI-enabled low-cost entrants will do the same"
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "headline": "The AI Adoption Matrix",
+      "subheadline": "Right approach depends on data type and cost of error.",
+      "bullets": [
+        "No Regrets (Explicit data, Low error cost): AI Agent — fully autonomous, no human in loop",
+        "Quality Control (Explicit data, High error cost): Specialist + AI — AI produces, human verifies",
+        "Creative Catalyst (Tacit knowledge, Low error cost): Generalist + AI — AI options, human selects",
+        "Human First (Tacit knowledge, High error cost): Expert leads — AI assists at the margins"
+      ],
+      "note": "Adopt early even when capabilities are imperfect if cost savings are substantial and error costs are low."
+    },
+    {
+      "type": "content",
+      "headline": "Gen AI Threatens Industry Profitability",
+      "subheadline": "Wide availability is a weakness, not a strength.",
+      "bullets": [
+        "Generic adoption reduces barriers to entry — new competitors flood every market",
+        "Supplier bargaining power shifts: in-house legal roles grew 230%+ since 1997 as AI tools empower buyers",
+        "Human capital at scale becomes variable cost — fixed-cost moats erode",
+        "Technology reshuffles markets: Walmart → Amazon, Print NYT → Digital NYT",
+        "Blockbuster saw Netflix coming in 2000 — and still went bankrupt in 2010"
+      ],
+      "note": "Competing in the AI age requires counterintuitive decisions: disrupt yourself before rivals do."
+    },
+    {
+      "type": "content",
+      "headline": "Three Implementation Modes",
+      "subheadline": "Choose based on customization needs and usage scope.",
+      "bullets": [
+        "Customize Model: fine-tune on proprietary data (e.g., BloombergGPT) — company-specific, highest control",
+        "Integrate APIs: pipe foundation models into your product (e.g., Coca-Cola × OpenAI) — balanced flexibility",
+        "Purchase Applications: buy vertical AI tools (e.g., Harvey for legal) — fastest time-to-value"
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "Strategic Transformation Playbook",
+      "subheadline": "Winners redesign; laggards merely layer.",
+      "bullets": [
+        "Rethink all assets as data — physical spaces, conversations, workflows are training signals",
+        "Redesign the entire organization — don't layer AI on broken processes",
+        "Create more value with AI than competitors or margins will compress",
+        "Act now: waiting for 'readiness' cedes first-mover advantage"
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "Five Takeaways",
+      "subheadline": "Professor Andy Wu · Harvard Business School",
+      "bullets": [
+        "Gen AI will keep improving — anticipating the trajectory is your job",
+        "It fundamentally changes who can access and operate software",
+        "Adopt even when imperfect if cost savings justify it",
+        "Competition will intensify — prepare to self-disrupt and take calculated risks",
+        "Two essential questions: Where is your data? What must your org become?"
+      ]
+    },
+    {
+      "type": "closing",
+      "headline": "The Question That Matters",
+      "subheadline": "\"By three methods we may learn wisdom: by reflection, which is noblest; by imitation, which is easiest; and by experience, which is the bitterest.\" — Confucius",
+      "note": "Andy Wu · awu@hbs.edu · @AndyWuAndyWu"
+    }
+  ]
+}
