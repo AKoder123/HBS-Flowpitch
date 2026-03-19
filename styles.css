@@ -388,8 +388,9 @@ body::before {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 60px;
-  align-items: start;
+  align-items: stretch;
   height: 100%;
+  max-height: 100%;
   align-content: center;
 }
 
@@ -418,6 +419,7 @@ body::before {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  max-height: 100%;
   overflow: hidden;
 }
 
@@ -762,30 +764,36 @@ body::before {
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .timeline-item {
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 20px;
+  display: flex;
   align-items: flex-start;
-  padding: 10px 0;
+  gap: 14px;
+  padding: 6px 0 6px 16px;
   border-left: 1px solid var(--border);
-  padding-left: 20px;
-  margin-left: 40px;
+  margin-left: 64px;
   position: relative;
+  flex: 1;
   transition: border-color 0.2s;
+}
+
+.timeline-item:hover {
+  border-left-color: var(--accent);
 }
 
 .timeline-item::before {
   content: '';
   position: absolute;
   left: -5px;
-  top: 17px;
-  width: 9px;
-  height: 9px;
+  top: 12px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--accent);
   border: 2px solid var(--bg);
@@ -794,27 +802,29 @@ body::before {
 
 .timeline-year {
   position: absolute;
-  left: -108px;
-  top: 12px;
+  left: -74px;
+  top: 8px;
   font-family: 'DM Mono', monospace;
-  font-size: clamp(11px, 1vw, 13px);
+  font-size: clamp(10px, 0.85vw, 11px);
   color: var(--accent);
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
-  width: 80px;
+  width: 60px;
+  letter-spacing: 0.06em;
 }
 
 .timeline-content-title {
-  font-size: clamp(12px, 1.1vw, 14px);
+  font-size: clamp(12px, 1.05vw, 14px);
   font-weight: 600;
   color: var(--text);
-  margin-bottom: 2px;
+  margin-bottom: 1px;
+  line-height: 1.2;
 }
 
 .timeline-content-text {
-  font-size: clamp(11px, 0.95vw, 13px);
+  font-size: clamp(10px, 0.88vw, 12px);
   color: var(--text-muted);
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
 /* ── Takeaway numbered list ── */
